@@ -12,25 +12,25 @@
     <div class="container">
         <div id="display-screen">0</div>
         <div class="button-container">
-            <button class="cal-btn">AC</button>
-            <button class="cal-btn">Del</button>
-            <button class="cal-btn">%</button>
-            <button class="cal-btn">/</button>
-            <button class="cal-btn">7</button>
-            <button class="cal-btn">8</button>
-            <button class="cal-btn">9</button>
-            <button class="cal-btn">X</button>
-            <button class="cal-btn">4</button>
-            <button class="cal-btn">5</button>
-            <button class="cal-btn">6</button>
-            <button class="cal-btn">-</button>
-            <button class="cal-btn">1</button>
-            <button class="cal-btn">2</button>
-            <button class="cal-btn">3</button>
-            <button class="cal-btn">+</button>
-            <button class="cal-btn" id="btn-zero">0</button>
-            <button class="cal-btn">.</button>
-            <button class="cal-btn">=</button>
+            <button class="cal-btn"  onclick="btnClicker('AC')">AC</button>
+            <button class="cal-btn" onclick="clearInput()">Del</button>
+            <button class="cal-btn" onclick="btnClicker('%')">%</button>
+            <button class="cal-btn" onclick="btnClicker('/')">/</button>
+            <button class="cal-btn" onclick="btnClicker('7')">7</button>
+            <button class="cal-btn" onclick="btnClicker('8')">8</button>
+            <button class="cal-btn" onclick="btnClicker('9')">9</button>
+            <button class="cal-btn" onclick="btnClicker('x')">X</button>
+            <button class="cal-btn" onclick="btnClicker('4')">4</button>
+            <button class="cal-btn" onclick="btnClicker('5')">5</button>
+            <button class="cal-btn" onclick="btnClicker('6')">6</button>
+            <button class="cal-btn" onclick="btnClicker('-')">-</button>
+            <button class="cal-btn" onclick="btnClicker('1')">1</button>
+            <button class="cal-btn" onclick="btnClicker('2')">2</button>
+            <button class="cal-btn" onclick="btnClicker('3')">3</button>
+            <button class="cal-btn" onclick="btnClicker('+')">+</button>
+            <button class="cal-btn" id="btn-zero" onclick="btnClicker('0')">0</button>
+            <button class="cal-btn" onclick="btnClicker('.')">.</button>
+            <button class="cal-btn" onclick="result()"> = </button>
         </div>
     </div>
 </body>
