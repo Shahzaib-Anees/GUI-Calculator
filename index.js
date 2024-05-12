@@ -15,8 +15,8 @@ function btnClicker(str) {
     } else if (str === "-") {
         currentDisplay = currentDisplay + "-";
         displayScreen.innerHTML = currentDisplay;
-    } else if (str === "x") {
-        currentDisplay = currentDisplay + "X";
+    } else if (str === "*") {
+        currentDisplay = currentDisplay + "*";
         displayScreen.innerHTML = currentDisplay;
     } else if (str === "1") {
         currentDisplay = currentDisplay + "1";
